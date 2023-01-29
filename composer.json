@@ -1,0 +1,30 @@
+{
+"name": "osky/searchcommand",
+"description": "A PHP 7.4 compatible CLI app that searches for new posts on a specified subreddit and allows the user to further filter the results using a search term.",
+"type": "library",
+"require": {
+"symfony/console": "6.*",
+"guzzlehttp/guzzle": "^6.0|7.5.x-dev",
+"symfony/dotenv": "6.3.x-dev",
+"php-http/guzzle6-adapter": "2.x-dev",
+"php-http/httplug": "2.x-dev",
+"php-http/message": "^1.13",
+"php-http/discovery": "^1.14",
+"symfony/config": "6.3.x-dev",
+"symfony/options-resolver": "^5.1",
+"symfony/dependency-injection": "6.3.x-dev",
+"symfony/event-dispatcher": "6.3.x-dev",
+"guzzlehttp/guzzle": "^6.0"
+},
+"require-dev": {
+"symfony/stopwatch": "6.3.x-dev",
+"psr/log": "3.x-dev"
+},
+"license": "NA",
+"autoload": {
+        "psr-4": {
+            "Osky\\Searchcommand\\": "src/"
+        }
+},
+"minimum-stability": "dev"
+}
